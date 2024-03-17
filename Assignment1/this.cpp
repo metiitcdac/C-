@@ -37,6 +37,8 @@ class person
 		}
 };
 
+
+
 main()
 {
 	person p1(20,"Jack");
@@ -51,6 +53,5 @@ main()
 	//temp.show();
 		//-------------------
 	temp=p2.comp(p1); //call comp function for p2 and pass p1 as paramter
-	temp.show();
-	
+	temp.show();	
 }
